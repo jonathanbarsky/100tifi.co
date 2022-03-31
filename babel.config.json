@@ -1,5 +1,11 @@
 {
     "presets": [
         "@babel/preset-env"
+    ],
+    
+    // ReferenceError: regeneratorRuntime is not defined en consola...hatas ahora usar la config de curso de webpack
+    "plugins": [
+        "@babel/plugin-transform-runtime"
     ]
+    
 }
