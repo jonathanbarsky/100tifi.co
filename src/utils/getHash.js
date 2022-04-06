@@ -1,4 +1,4 @@
-// cuando retornamos un solo elelmento que estamos accediendo dentro de la logica de esta funcion no es necesario utilizar brackets 
+// cuando retornamos un solo elemento que estamos accediendo dentro de la logica de esta funcion no es necesario utilizar brackets 
 const getHash = () => 
     location.hash.slice(1).toLocaleLowerCase().split('/')[1] || '/';
 
