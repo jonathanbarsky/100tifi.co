@@ -7,3 +7,7 @@ bien:
 -header.js
 -home.js
 -getData.js
+-index.js
+-Error404
+-character.js
+-getHash
